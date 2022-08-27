@@ -1,8 +1,8 @@
 package com.swing.client.app.service;
 
-import static com.swing.server.app.config.ApplicationConfig.DATETIME_PATTERN;
+import static com.swing.client.app.config.ApplicationConfig.DATETIME_PATTERN;
 
-import com.swing.server.app.util.StringUtils;
+import com.swing.client.app.util.StringUtils;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,6 +1,7 @@
 package com.swing.client.app.client.impl;
 
 import com.swing.client.app.client.NetworkClient;
+import com.swing.client.app.util.StringUtils;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -76,5 +77,10 @@ public class StringMessageNetworkClient implements NetworkClient<String> {
     } catch (Exception exception) {
       exception.printStackTrace();
     }
+  }
+
+  @Override
+  public String toString() {
+    return StringUtils.toString(this.socket);
   }
 }
